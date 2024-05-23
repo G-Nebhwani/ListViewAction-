@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    android:id="@+id/add_std_alert">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text=" Update the Name Of the Student"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/Ev_updateStd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Name"
+            android:layout_margin="15dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/alert_update_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="Update"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:backgroundTint="#2196F3"
+                android:layout_marginLeft="50dp"/>
+            <Button
+                android:id="@+id/alert_cancel_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:backgroundTint="#2196F3"
+                android:text="Cancel"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
